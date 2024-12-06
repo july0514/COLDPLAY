@@ -41,17 +41,18 @@ const songTitle = document.getElementById('song-title');
 // Cambiar el título de la canción
 const songs = [
     { title: "Fix You", src: "@coldplay - Fix You (Lyrics).mp3" },
-    { title: "Yellow", src: "@coldplay - Yellow (Lyrics).mp3" },
-    { title: "We never change", src: "Coldplay - We Never l.mp3" },
-    { title: "Magic", src: "Coldplay - Magic (Official Audio).mp3" },
-    { title: "Sparks", src: "Coldplay - Sparks .mp3" },
-    { title: "Paradise", src: "Coldplay - Paradise (Official Video).mp3" },
-    { title: "Hymn For The Weekend", src: "Coldplay - Hymn For The Weekend (Official Video).mp3" },
-    { title: "Always in My head", src: "Always in My Head.mp3" },
-    { title: "Politik", src: Coldplay - Politik .mp3" },
-    { title: "Viva la Vida", src: "viva la vida.mp3" },
+    { title: "Yellow", src: "musica/@coldplay - Yellow (Lyrics).mp3" },
+    { title: "We never change", src: "musica/Coldplay - We Never l.mp3" },
+    { title: "Magic", src: "musica/Coldplay - Magic (Official Audio).mp3" },
+    { title: "Sparks", src: "musica/Coldplay - Sparks .mp3" },
+    { title: "Paradise", src: "musica/Coldplay - Paradise (Official Video).mp3" },
+    { title: "Hymn For The Weekend", src: "musica/Coldplay - Hymn For The Weekend (Official Video).mp3" },
+    { title: "Always in My head", src: "musica/Always in My Head.mp3" },
+    { title: "Politik", src: "musica/Coldplay - Politik .mp3" },
+    { title: "Viva la Vida", src: "musica/viva la vida.mp3" },
 
 ];
+
 
 let currentSongIndex = 0;
 
