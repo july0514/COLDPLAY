@@ -47,9 +47,9 @@ const songs = [
     { title: "Sparks", src: "Coldplay - Sparks .mp3" },
     { title: "Paradise", src: "Coldplay - Paradise (Official Video).mp3" },
     { title: "Hymn For The Weekend", src: "Coldplay - Hymn For The Weekend (Official Video).mp3" },
-    { title: "Always in My head", src: "musica/Always in My Head.mp3" },
-    { title: "Politik", src: "musica/Coldplay - Politik .mp3" },
-    { title: "Viva la Vida", src: "musica/viva la vida.mp3" },
+    { title: "Always in My head", src: "Always in My Head.mp3" },
+    { title: "Politik", src: "Coldplay - Politik .mp3" },
+    { title: "Viva la Vida", src: "viva la vida.mp3" },
 
 ];
 
