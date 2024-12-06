@@ -40,7 +40,7 @@ const songTitle = document.getElementById('song-title');
 
 // Cambiar el título de la canción
 const songs = [
-    { title: "Fix You", src: "musica/@coldplay - Fix You (Lyrics).mp3" },
+    { title: "Fix You", src: "@coldplay - Fix You (Lyrics).mp3" },
     { title: "Yellow", src: "musica/@coldplay - Yellow (Lyrics).mp3" },
     { title: "We never change", src: "musica/Coldplay - We Never l.mp3" },
     { title: "Magic", src: "musica/Coldplay - Magic (Official Audio).mp3" },
