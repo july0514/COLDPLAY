@@ -1,0 +1,338 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Esto hace que el header ocupe el 100% de la altura de la pantalla */
+    background-image: url('https://www.duna.cl/media/2022/09/Coldplay.jpg');
+    background-size: cover;  /* Asegura que la imagen cubra todo el espacio */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+h1{
+    font-size: 50PX;
+}
+
+.header-content {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);  /* Sombra para que el texto sea legible */
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 2rem;
+}
+
+
+
+
+
+.musica-image {
+    flex: 0 0 30%; /* Ajusta el tamaño según lo necesites */
+    padding-left: 20px;
+    align-items: end;
+}
+
+.musica-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Si quieres bordes redondeados en la imagen */
+}
+
+
+
+
+/* Sección de comentarios */
+#comentario-form {
+    margin-bottom: 20px;
+}
+
+#comentario-texto {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#comentarios-lista {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.musica-image{
+    width: 500px;
+    height: 400 px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#discografia {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.player-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    width: 300px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-info {
+    margin-bottom: 20px;
+}
+
+.song-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    background-color: #2a2a2a;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.control-btn:hover {
+    background-color: #666;
+}
+
+.progress-container {
+    width: 100%;
+}
+
+#progress-bar {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #555;
+    border-radius: 5px;
+    outline: none;
+}
+
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #1db954;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #1db954;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#discografia {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('https://i.pinimg.com/736x/37/0c/68/370c68f9b72e1d0560a7ae806b801c95.jpg');
+    background-color: #121212;
+    color: #fff;
+    font-size: 30px; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.player-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    width: 300px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-info {
+    margin-bottom: 20px;
+}
+
+.song-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    background-color: #2a2a2a;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.control-btn:hover {
+    background-color: #666;
+}
+
+.progress-container {
+    width: 100%;
+}
+
+#progress-bar {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #555;
+    border-radius: 5px;
+    outline: none;
+}
+
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #1db954;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #1db954;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
