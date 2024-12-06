@@ -42,7 +42,7 @@ const songTitle = document.getElementById('song-title');
 const songs = [
     { title: "Fix You", src: "@coldplay - Fix You (Lyrics).mp3" },
     { title: "Yellow", src: "@coldplay - Yellow (Lyrics).mp3" },
-    { title: "We never change", src: "musica/Coldplay - We Never l.mp3" },
+    { title: "We never change", src: "Coldplay - We Never l.mp3" },
     { title: "Magic", src: "musica/Coldplay - Magic (Official Audio).mp3" },
     { title: "Sparks", src: "musica/Coldplay - Sparks .mp3" },
     { title: "Paradise", src: "musica/Coldplay - Paradise (Official Video).mp3" },
